@@ -5,9 +5,10 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
 
 class SomeBusinessMockTest {
-
 	@Test
 	void testFindTheGreatestFromAllData() {
 		
@@ -36,6 +37,7 @@ class SomeBusinessMockTest {
 		int result = businessImpl.findTheGreatestFromAllData();
 		assertEquals(15, result);
 	}
+
 
 }
 
